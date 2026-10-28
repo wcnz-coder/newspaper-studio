@@ -1,0 +1,155 @@
+{
+  "name": "the-crane-chronicle",
+  "lang": "en",
+  "paper": { "size": "A4", "orientation": "portrait" },
+  "pages": 2,
+
+  "style": {
+    "paper": "#f6f1e7",
+    "ink": "#1c1c1c",
+    "accent": "#b3272d",
+    "serif": "Georgia, 'Times New Roman', 'Songti SC', serif",
+    "body_pt": 9.2,
+    "body_lh": 1.47,
+    "lede_pt": 10,
+    "h2_pt": 13,
+    "title_mm": 9.9,
+    "mark_w_mm": 8.6,
+    "columns": 2,
+    "grain": true
+  },
+
+  "masthead": {
+    "mark": true,
+    "kicker": { "left": "Class 027 / Group 3", "mid": "Vol. 1 · No. 1", "right": "Special Edition" },
+    "pre_title": "The",
+    "title": "Crane Chronicle",
+    "subtitle": "A Special Edition on the Red-Crowned Crane"
+  },
+
+  "running_head": {
+    "left": "The Crane Chronicle",
+    "mid": "A Special Edition on the Red-Crowned Crane",
+    "right": "Vol. 1 · No. 1"
+  },
+
+  "footer": {
+    "left": "The Crane Chronicle",
+    "mid": "Printed with care for nature",
+    "page": "Page {n} of {total}",
+    "marks": 2
+  },
+
+  "fit": { "min_body_pt": 8.4 },
+
+  "sections": [
+    {
+      "page": 1,
+      "num": "01",
+      "title": "The Species",
+      "byline": "By Member 01",
+      "lede": "It is the largest crane in the world, and one of the rarest: a bird that stands as tall as a ten-year-old child and carries its name on the top of its head.",
+      "facts": [
+        ["Scientific name", "Grus japonensis"],
+        ["Alias", "Fairy Crane"],
+        ["Appearance", "Pristine white body, black accents, a striking red crown"],
+        ["Size", "Up to 160 cm tall; 240 cm wingspan"],
+        ["Lifespan", "30 to 50 years"],
+        ["Population", "About 3,000 in the wild"],
+        ["Fun fact", "The red crown is bare skin, not feathers"],
+        ["Status", "Vulnerable · IUCN Red List"]
+      ],
+      "figure": {
+        "src": "img/fig1.jpg",
+        "width_mm": 58,
+        "caption": "<b>THE CALL.</b> A pair calls in the dry grassland of a northern breeding site. The bare red skin of the crown carries at a distance."
+      }
+    },
+    {
+      "page": 1,
+      "num": "02",
+      "title": "Habitat & Distribution",
+      "byline": "By Member 02",
+      "body": [
+        "The red-crowned crane breeds in the wetlands of the Russian Far East and northeast China. When winter comes, most of the population flies south to the coastal mudflats around Yancheng, in Jiangsu Province, and to the Korean Peninsula.",
+        "One group breaks the pattern. The cranes of Hokkaido, in Japan, do not migrate at all: artificial feeding and habitat protection have let them stay through the year.",
+        "The species wants shallow marsh with standing dead vegetation and water deep enough to matter. Its long legs and long beak let it forage further out than other cranes, and the reeds offer both food and cover. Nests are built on wet ground or in shallow water — safe from land predators, and still easy to reach."
+      ],
+      "figure": {
+        "src": "img/fig2.jpg",
+        "width_mm": 40,
+        "caption": "<b>WINTER GROUND.</b> A pair feeding at the water's edge. Most of the world's red-crowned cranes winter on coastal mudflats like these."
+      }
+    },
+    {
+      "page": 1,
+      "num": "03",
+      "title": "The Story",
+      "byline": "By Member 03",
+      "headline": "The Girl Who Went Into the Marsh",
+      "body": [
+        "Xu Xiujuan loved red-crowned cranes. She grew up on the wetland, and it was her father who taught her how to care for them.",
+        "Later she went to Yancheng to protect a wild population. She hatched chicks and stayed with them every day.",
+        "One evening two cranes did not come back. She went into the marsh to find them. The mud was soft and the water was cold, and she kept going. She sank into the deep marsh and did not come out.",
+        { "pullquote": "She was twenty-three." },
+        "People there still remember the girl, her cranes, and the story the three of them share."
+      ]
+    },
+    {
+      "page": 2,
+      "num": "04",
+      "title": "Culture & Symbolism",
+      "byline": "By Member 04",
+      "columns": 3,
+      "ragged": true,
+      "body": [
+        "In Chinese tradition the red-crowned crane is more than a bird. It has long stood for longevity, loyalty and good fortune.",
+        "Because cranes were believed to live for many years, they appear beside pine trees in the popular motif of “pine and crane” — a blessing for a long and healthy life. The bird is tied to Taoist ideas of immortality, and is sometimes called the immortal crane. In painting, poetry, stamps and wedding designs, its white body, black neck and red crown make an elegant image of grace and purity. Officials of the Ming and Qing dynasties wore crane badges to mark high rank.",
+        "It turns up on porcelain and on court robes, in temple wall paintings and in the oldest poetry. Few birds carry so much meaning.",
+        "Pairs stay together for years, and a crane that loses its mate may not breed again — which is why the bird also stands for loyalty. In Chinese it is often shortened to <i>xianhe</i>, the crane of the immortals, and it turns up on everything from temple walls to wedding invitations.",
+        "Today it remains a beloved symbol of harmony between people and nature."
+      ],
+      "figure": {
+        "src": "img/fig3.jpg",
+        "width_mm": 40,
+        "caption": "<b>PINE AND CRANE.</b> Long-lived bird, evergreen tree: together they form a standard blessing for a long and healthy life."
+      }
+    },
+    {
+      "page": 2,
+      "num": "05",
+      "title": "Threats & Conservation",
+      "byline": "By Member 05",
+      "columns": 3,
+      "ragged": true,
+      "body": [
+        "The species is listed as Vulnerable on the IUCN Red List, with a wild population of only about 3,000 individuals remaining.",
+        "Wetland reclamation and degradation keep shrinking the habitat it depends on. Water pollution and human disturbance lower breeding success, while poaching and power-line collisions take a further toll. The trend across the range is still downward, and no single reserve can hold a secure population on its own.",
+        "Urgent measures are needed to protect what is left of the wetlands and to hold a declining population steady."
+      ],
+      "figure": {
+        "src": "img/fig4.jpg",
+        "width_mm": 74,
+        "caption": "<b>COUNTING THE BIRDS.</b> Long-term counts at three Chinese reserves, 1981–2014: Shuangtai Estuary, Yancheng and Zhalong. Vertical axis, individuals."
+      },
+      "statline": { "big": "3,000", "text": "left in the wild · IUCN: Vulnerable" }
+    },
+    {
+      "page": 2,
+      "num": "06",
+      "title": "How We Can Help",
+      "byline": "By Member 06",
+      "body": [
+        "Small choices can keep wetlands alive. Saving the red-crowned crane starts with water.",
+        "You do not have to live near a marsh to help. Protect wetlands; never drain a pond or a reed bed. When you watch birds, keep your distance, stay on the path, and never chase or feed a crane. Cut back on plastic and pesticide. And speak up: tell a friend, share a photo, join a clean-up day.",
+        { "keyfact": { "title": "Key fact", "text": "Only about 3,000 red-crowned cranes remain in the wild, and each one of them needs a healthy wetland." } },
+        { "close": "The work is slow, but so is a crane&rsquo;s dance — and both are worth waiting for." }
+      ],
+      "figure": {
+        "src": "img/fig5.jpg",
+        "width_mm": 36,
+        "caption": "<b>THE EMBLEM.</b> Ink-brush crane, campaign artwork."
+      }
+    }
+  ]
+}

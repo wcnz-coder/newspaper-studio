@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+_print.html
+_print_tmp.html
+# 生成物（示例里的成品保留一份给读者看，其余忽略）
+!examples/**/*.pdf
+!examples/**/*.png
